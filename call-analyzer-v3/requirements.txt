@@ -1,0 +1,14 @@
+# =============================================
+# TSC Call Audit Pipeline — Python Dependencies (Optional)
+# =============================================
+# Primary stack is Node.js. These are for optional Python extensions.
+
+openai-whisper==20231117
+torch>=2.0.0
+langdetect==1.0.9
+langid==1.1.6
+pydub==0.25.1
+librosa==0.10.2
+python-dotenv==1.0.1
+requests==2.32.3
+anthropic==0.39.0
