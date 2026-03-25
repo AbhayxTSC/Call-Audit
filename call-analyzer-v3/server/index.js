@@ -34,7 +34,7 @@ app.get("/api/health", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on https://call-audit.onrender.com`);
   if (!process.env.ELEVENLABS_API_KEY || process.env.ELEVENLABS_API_KEY === "your_elevenlabs_key_here")
     console.warn("⚠️  ELEVENLABS_API_KEY not set.");
   if (!process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_API_KEY === "your_anthropic_key_here")
